@@ -1,0 +1,12 @@
+#cart-widget > span {
+  color: rgb(248, 13, 146);
+  padding-left: 1rem;
+}
+
+.img {
+  width: 40px;
+}
+
+.navbar {
+  padding: 10px;
+}
