@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Canon, EOS 5D Mark III",
+        "category": ["inicio","camaras"],
+        "description": "Una DSLR de formato completo con capacidad para captar imágenes de 22 megapíxeles a 6 fps y vídeo Full-HD. La EOS 5D Mark III es una DSLR de formato completo de 22,3 MP con enfoque automático de 61 puntos y disparos en serie de 6 fps.",
+        "price": "US$500",
+        "pictureUrl": "https://images.unsplash.com/photo-1520549233664-03f65c1d1327?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "title": "NIKON CORPORATION, NIKON D750",
+        "category": ["inicio","camaras"],
+        "description": " una cámara DSLR de 24 MP con Wi-Fi y NFC integrados para compartir sus fotos y videos al instante, grabadora de video HD, efectos especiales y Controles de Imagen.",
+        "price": "US$1500",
+        "pictureUrl": "https://images.unsplash.com/photo-1515081321129-b3c138ab28dd?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "title": "Galaxy S21 Plus",
+        "category": ["inicio", "celulares"],
+        "description": "El Samsung Galaxy S21 Ultra 5G destaca a primera vista por su diseño y por una revolucionaria cámara fotográfica que permite grabar en 8K y obtener fotos inéditas al mismo tiempo.",
+        "price": "US$1000",
+        "pictureUrl": "https://images.unsplash.com/photo-1610945263963-47c586d7abbf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "title": "iPhone X Pro",
+        "category": ["inicio", "celulares"],
+        "description": "Con una atípica resolución de 2436 x 1125 pixels, acomoda 458ppi. Por dentro, el iPhone X tiene el nuevo procesador A11 Bionic. La cámara es dual de 12 MP similar a la del iPhone 8, es resistente al agua y corre iOS 11.",
+        "price": "US$2500",
+        "pictureUrl": "https://images.unsplash.com/photo-1571567494105-e0ab767f03bf?q=80&w=1271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 5,
+        "title": "Panasonic, DC-S1",
+        "category": ["inicio","camaras"],
+        "description": "es una cámara híbrida de fotograma completo con un sensor CMOS de 24,2 megapíxeles. Esta cámara combina la pasión por la fotografía y los vídeos, ofreciendo un increíble nivel de detalle realista.",
+        "price": "US$2000",
+        "pictureUrl": "https://images.unsplash.com/photo-1585459733256-a22e2b5eecf6?q=80&w=1294&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "title": "iPhone 6",
+        "category": ["inicio", "celulares"],
+        "description": "El Apple iPhone 6 sube la apuesta de Apple con una pantalla de mayor tamaño de 4.7 pulgadas protegida por un cristal ultra resistente, nuevo procesador A8, 16GB, 64GB o 128GB de almacenamiento interno, cámara trasera de 8 megapixels con flash, cámara frontal de 1.2MP, conectividad 4G LTE y iOS 8.",
+        "price": "US$1800",
+        "pictureUrl": "https://images.unsplash.com/photo-1592821266573-4c773cfc5507?q=80&w=1277&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 7,
+        "title": "NIKON CORPORATION, NIKON D5000",
+        "category": ["inicio","camaras"],
+        "description": "La Sony ILCE-7M3, también conocida como Sony Alpha 7 III, es una cámara de lentes intercambiables con un sensor full-frame CMOS Exmor R de 35 mm",
+        "price": "US$2000",
+        "pictureUrl": "https://images.unsplash.com/photo-1470940511639-1068d7764233?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 8,
+        "title": "SONY, ILCE-7M3",
+        "category": ["inicio","camaras"],
+        "description": "La Nikon D5000 es una cámara DSLR del fabricante japonés Nikon Corporation, destinada a aficionados. Posee 12,3 megapixels y muchas características en común con la D90. Fue la segunda cámara de Nikon en tener la capacidad de grabar vídeo.",
+        "price": "US$500",
+        "pictureUrl": "https://images.unsplash.com/photo-1622551140827-d51009f1eab2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 9,
+        "title": "iPhone 7 Plus",
+        "category": ["inicio", "celulares"],
+        "description": "El iPhone 7 Plus es un dispositivo de Apple que mejora las características del iPhone 6S Plus.",
+        "price": "US$1000",
+        "pictureUrl": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 10,
+        "title": "samsung galaxy A72",
+        "category": ["inicio", "celulares"],
+        "description": "El Samsung Galaxy A72 es el sucesor del Galaxy A71. Cuenta con una pantalla Super AMOLED de 6.7 pulgadas con resolución Full HD+. Este dispositivo está equipado con un procesador Qualcomm Snapdragon 720G y ofrece dos configuraciones de memoria RAM: 6 GB con 128 GB de almacenamiento interno o 8 GB con 256 GB de almacenamiento.",
+        "price": "US$800",
+        "pictureUrl": "https://images.unsplash.com/photo-1627609834360-74948f361335?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 11,
+        "title": "Canon, EOS R",
+        "category": ["inicio","camaras"],
+        "description": "La Canon EOS R es una cámara sin espejo de fotograma completo que ofrece resultados espectaculares.",
+        "price": "US$1300",
+        "pictureUrl": "https://images.unsplash.com/photo-1628285348080-38683c1232be?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 12,
+        "title": "Iphone 11 Pro",
+        "category": ["inicio", "celulares"],
+        "description": "El iPhone 11 Pro es el sucesor del iPhone Xs. Tiene una pantalla OLED Super Retina XDR y está potenciado por un procesador A13 Bionic de Apple. Viene con opciones de almacenamiento de 64GB, 256GB o 512GB. La cámara posterior es triple, de 12 MP + 12 MP + 12 MP, mientras que la cámara frontal también es de 12 MP",
+        "price": "US$1800",
+        "pictureUrl": "https://images.unsplash.com/photo-1571982497454-1a7fa41973fc?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
