@@ -8,10 +8,10 @@ import CartWidget from './CartWidget';
 const NavBar = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
-       <h1>Mundo Visual</h1>
+      <h1>Mundo Visual</h1>
       <Container>
         <Nav className="me-auto">
-        <Nav.Link to="/category/inicio" as={NavLink}>
+          <Nav.Link to="/category/inicio" as={NavLink}>
             Inicio
           </Nav.Link>
           <Nav.Link to="/category/camaras" as={NavLink}>

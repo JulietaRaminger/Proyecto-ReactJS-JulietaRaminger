@@ -1,10 +1,10 @@
-body{
+body {
   background-color: rgb(128, 127, 127);
 }
 
 /*Menu de navegacion CartWidget*/
-h1{
-  color:  rgb(248, 13, 146);
+h1 {
+  color: rgb(248, 13, 146);
   font-size: 20px;
 
   width: 25%;
@@ -25,23 +25,21 @@ h1{
 /* Item */
 
 .item-card {
-  width: 300px; /* Ancho fijo para el contenedor Card */
-  margin: 10px; /* Espacio entre los elementos */
-
+  width: 95%;
+  margin: 10px;
 }
 
 .item-image {
-  height: 200px; /* Altura fija para la imagen */
-  object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+  height: 200px;
+  object-fit: cover;
 }
 
 .item-body {
   text-align: center;
   background-color: rgb(0, 0, 0);
-  
 }
 
-.title{
+.title {
   font-size: 16px;
   color: aliceblue;
 }
@@ -49,28 +47,28 @@ h1{
 .custom-button {
   background-color: rgb(248, 13, 146);
   color: aliceblue;
-  border: none; 
+  border: none;
   border-radius: 5px;
-  padding: 10px 20px; 
-  font-size: 16px; 
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .custom-button:hover {
   background-color: rgb(244, 117, 242);
-  color: #000000; 
+  color: #000000;
 }
 
 /*ItemList*/
 
 .item-list {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
-  justify-content: space-around; /* Distribuye el espacio entre los elementos */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .item-card {
-  flex: 0 1 calc(25% - 20px); /* Establece el ancho de cada elemento en un 25% del contenedor y deja un espacio de 20px entre ellos */
-  margin: 10px; /* Espacio entre los elementos */
+  flex: 0 1 calc(25% - 20px);
+  margin: 10px;
 }
 
 /*ItemDetailContainer*/
@@ -80,19 +78,52 @@ h1{
 }
 
 .product-image {
-  width: 30rem; 
-  height: 30rem; 
-  margin: 0 auto 20px; 
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto 20px;
+  object-fit: cover;
 }
 
-p{
+p {
   color: aliceblue;
   font-size: 20px;
   margin: 10px 40px;
 }
 
-.price{
+.price {
   color: rgb(12, 255, 105);
   font-size: 30px;
 }
 
+/*ItemCount*/
+
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+}
+
+.Button {
+  padding: 5px 10px;
+  margin: 10px 5px;
+  font-size: 16px;
+  background-color: rgb(248, 13, 146);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  box-shadow: rgb(236, 96, 180) 3px 10px 15px;
+}
+
+.Number {
+  margin: 0 10px;
+  font-size: 18px;
+}
