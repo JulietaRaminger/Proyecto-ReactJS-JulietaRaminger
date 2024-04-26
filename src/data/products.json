@@ -11,7 +11,7 @@
         "id": 2,
         "title": "NIKON CORPORATION, NIKON D750",
         "category": ["inicio","camaras"],
-        "description": " una cámara DSLR de 24 MP con Wi-Fi y NFC integrados para compartir sus fotos y videos al instante, grabadora de video HD, efectos especiales y Controles de Imagen.",
+        "description": "Una cámara DSLR de 24 MP con Wi-Fi y NFC integrados para compartir sus fotos y videos al instante, grabadora de video HD, efectos especiales y Controles de Imagen.",
         "price": "US$1500",
         "pictureUrl": "https://images.unsplash.com/photo-1515081321129-b3c138ab28dd?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Panasonic, DC-S1",
         "category": ["inicio","camaras"],
-        "description": "es una cámara híbrida de fotograma completo con un sensor CMOS de 24,2 megapíxeles. Esta cámara combina la pasión por la fotografía y los vídeos, ofreciendo un increíble nivel de detalle realista.",
+        "description": "Es una cámara híbrida de fotograma completo con un sensor CMOS de 24,2 megapíxeles. Esta cámara combina la pasión por la fotografía y los vídeos, ofreciendo un increíble nivel de detalle realista.",
         "price": "US$2000",
         "pictureUrl": "https://images.unsplash.com/photo-1585459733256-a22e2b5eecf6?q=80&w=1294&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -49,9 +49,9 @@
     },
     {
         "id": 7,
-        "title": "NIKON CORPORATION, NIKON D5000",
+        "title": "NIKON D5000",
         "category": ["inicio","camaras"],
-        "description": "La Sony ILCE-7M3, también conocida como Sony Alpha 7 III, es una cámara de lentes intercambiables con un sensor full-frame CMOS Exmor R de 35 mm",
+        "description": "La Nikon D5000 es una cámara DSLR del fabricante japonés Nikon Corporation, destinada a aficionados. Posee 12,3 megapixels y muchas características en común con la D90.",
         "price": "US$2000",
         "pictureUrl": "https://images.unsplash.com/photo-1470940511639-1068d7764233?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -59,8 +59,8 @@
         "id": 8,
         "title": "SONY, ILCE-7M3",
         "category": ["inicio","camaras"],
-        "description": "La Nikon D5000 es una cámara DSLR del fabricante japonés Nikon Corporation, destinada a aficionados. Posee 12,3 megapixels y muchas características en común con la D90. Fue la segunda cámara de Nikon en tener la capacidad de grabar vídeo.",
-        "price": "US$500",
+        "description": "Con diseño retroiluminado Rango de sensibilidad de hasta ISO 51200 (ampliable a ISO 50-204800 para fotos) Enfoque automático híbrido rápido con 693 puntos de detección de fases y 425 puntos de enfoque automático con detección de contraste",
+        "price": "US$2500",
         "pictureUrl": "https://images.unsplash.com/photo-1622551140827-d51009f1eab2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {

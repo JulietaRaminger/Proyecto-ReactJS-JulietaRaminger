@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
+
 export const Item = ({ product }) => (
   <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
     <Card className="item-card">

@@ -127,3 +127,131 @@ p {
   margin: 0 10px;
   font-size: 18px;
 }
+
+/*Cart*/
+
+.container {
+  width: 100%;
+}
+
+.titulo {
+  font-size: 30px;
+  width: 100%;
+  margin: 5% 0;
+  text-align: center;
+}
+
+ul {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+  gap: 2%; 
+}
+
+ul li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px; 
+  margin-bottom: 0px;
+  width: 100%; 
+}
+
+.btn-x {
+  width: 40%;
+  height: 5vh;
+  margin-left: auto;
+  background-color: rgb(248, 13, 146);
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.btn-container {
+  text-align: right; 
+}
+
+.btn-clear {
+  height: 5vh;
+  background-color: rgb(248, 13, 146);
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.total-container {
+  display: flex;
+  justify-content: center;
+}
+
+.total{
+  margin: 5% 0%;
+  padding: 20px 0;
+  color: rgb(12, 255, 105);
+  font-size: 25px;
+}
+
+.checkout-compra{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 5vh;
+}
+
+.btn-checkout {
+  font-size: 25px;
+  width: fit-content; /* Ajusta el ancho al contenido */
+  padding: 20px 40px; /* Ajusta el espacio alrededor del texto */
+  background-color: rgb(12, 255, 105);
+  color: #000000;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  ul {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    );
+  }
+
+  ul li:nth-child(1),
+  ul li:nth-child(2) {
+    width: 100%; /* Ancho del 100% para ocupar toda la cuadrícula */
+  }
+
+  .btn-x {
+    width: 20%;
+    height: 5vh;
+  }
+
+  .btn-clear {
+    display: flex;
+    width: 25%;
+    margin: 0;
+    height: 6vh;
+    margin-left: auto;
+  }
+  .img-clear {
+    margin: 5% 10%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  ul {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Cambia a 1 columna en pantallas aún más pequeñas */
+  }
+
+  .btn-x {
+    width: 25%;
+    height: 6vh;
+    margin-inline: auto; /* Mueve el botón hacia la derecha */
+  }
+}

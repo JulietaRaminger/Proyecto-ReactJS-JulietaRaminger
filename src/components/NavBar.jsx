@@ -11,7 +11,7 @@ const NavBar = () => {
       <h1>Mundo Visual</h1>
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to="/category/inicio" as={NavLink}>
+          <Nav.Link to="/" as={NavLink}>
             Inicio
           </Nav.Link>
           <Nav.Link to="/category/camaras" as={NavLink}>
