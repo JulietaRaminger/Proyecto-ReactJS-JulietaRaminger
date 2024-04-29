@@ -6,6 +6,8 @@ const ItemCount = ({ stock, onAdd }) => {
   const increment = () => {
     if (quantity < stock) {
       setQuantity(quantity + 1);
+    } else {
+      swal('No hay suficiente stock 🥹');
     }
   };
 

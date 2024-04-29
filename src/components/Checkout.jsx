@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import Container from 'react-bootstrap/Container';
+import swal from 'sweetalert';
 import { Link } from 'react-router-dom';
 import CheckoutForm from './CheckoutForm';
 import { CartContext } from '../contexts/CartContext';
@@ -42,8 +43,12 @@ const Checkout = () => {
     addDoc(orderCollection, order)
       .then(({ id }) => {
         if (id) {
-          alert('Su orden: ' + id + ' ha sido completada!');
-        }
+          swal({
+            title: 'Su orden ha sido completada 😉',
+            text: 'N° de compra: ' + id,
+            icon: 'success',
+          }).finally(() => clear());
+        };
       })
       .finally(() => {
         clear;
@@ -53,13 +58,15 @@ const Checkout = () => {
 
   return (
     <Container>
-      <h1>Checkout</h1>
+      <h1 className="produc-cart">Checkout</h1>
       <CheckoutForm
         values={values}
         handleChange={handleChange}
         handleSubmit={handleSubmit}
       />
-      <Link to="/cart">Volver al carrito</Link>
+      <Link to="/" className="volver-cart">
+        Volver a los productos
+      </Link>
     </Container>
   );
 };
