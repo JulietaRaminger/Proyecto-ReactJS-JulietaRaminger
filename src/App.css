@@ -6,7 +6,6 @@ body {
 h1 {
   color: rgb(248, 13, 146);
   font-size: 20px;
-
   width: 25%;
 }
 #cart-widget > span {
@@ -145,16 +144,16 @@ ul {
   font-size: 18px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 1fr;
-  gap: 2%; 
+  gap: 2%;
 }
 
 ul li {
   font-size: 20px;
   display: flex;
   align-items: center;
-  padding: 10px; 
+  padding: 10px;
   margin-bottom: 0px;
-  width: 100%; 
+  width: 100%;
 }
 
 .btn-x {
@@ -168,7 +167,7 @@ ul li {
 }
 
 .btn-container {
-  text-align: right; 
+  text-align: right;
 }
 
 .btn-clear {
@@ -184,17 +183,17 @@ ul li {
   justify-content: center;
 }
 
-.total{
+.total {
   margin: 5% 0%;
   padding: 20px 0;
   color: rgb(12, 255, 105);
   font-size: 25px;
 }
 
-.checkout-compra{
+.checkout-compra {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   height: 5vh;
 }
 
@@ -209,32 +208,29 @@ ul li {
   cursor: pointer;
 }
 
-
 /*No hay productos en el carrito*/
 
-.produc-cart{
+.produc-cart {
   font-size: 30px;
   width: 100%;
   margin: 5% 0;
   text-align: center;
 }
 
-.btn-volver{
+.btn-volver {
   text-align: center;
 }
 
-
-.volver{
+.volver {
   font-size: 20px;
-  width: 30%; 
-  padding: 20px 40px; 
+  width: 30%;
+  padding: 20px 40px;
   background-color: rgb(5, 3, 128);
   color: white;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
 }
-
 
 /*checkoutForm*/
 
@@ -267,7 +263,7 @@ ul li {
   width: 100%;
   padding: 10px;
   background-color: rgb(248, 13, 146);
-  color: white; 
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -277,9 +273,9 @@ ul li {
   box-shadow: rgb(236, 96, 180) 3px 10px 15px;
 }
 
-.volver-cart{
-  font-size: 14px; 
-  padding: 5px 10px; 
+.volver-cart {
+  font-size: 14px;
+  padding: 5px 10px;
   background-color: rgb(5, 3, 128);
   color: white;
   border-radius: 5px;
@@ -289,10 +285,7 @@ ul li {
 
 @media screen and (max-width: 768px) {
   ul {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    );
+    grid-template-columns: repeat(2, 1fr);
   }
 
   ul li:nth-child(1),
@@ -305,17 +298,6 @@ ul li {
     height: 5vh;
   }
 
-  .btn-clear {
-    display: flex;
-    width: 25%;
-    margin: 0;
-    height: 6vh;
-    margin-left: auto;
-  }
-  .img-clear {
-    margin: 5% 10%;
-  }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -326,11 +308,5 @@ ul li {
     ); /* Cambia a 1 columna en pantallas aún más pequeñas */
   }
 
-  .btn-x {
-    width: 25%;
-    height: 6vh;
-    margin-inline: auto; /* Mueve el botón hacia la derecha */
-  }
+
 }
-
-
